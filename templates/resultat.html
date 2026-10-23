@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
+</head>
+<body>
+    <section class="header">
+        <div>
+            <h1>Café</h1>
+        </div>
+        
+        <div class="navbar">
+            <a href="{{ url_for('index') }}">Hjem</a>
+            <a href="{{ url_for('meny') }}">Meny</a>
+            <a href="{{ url_for('bestill') }}">Bestill bord</a>
+            <a href="{{ url_for('om') }}">Om oss</a>
+        </div>
+        
+    </section>
+    
+
+    <section class="main">
+        <h1>Din bestilling</h1>
+        {{navn}}
+        {{telefonnummer}}
+        {{klokkeslett}}
+    </section>
+
+    <section class="bottom">
+
+    </section>
+</body>
+</html>

@@ -1,0 +1,61 @@
+.header {
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 180, 155);
+    width: 100%;
+    flex-direction: column;
+    color: rgb(69, 34, 31);
+}
+
+.navbar {
+    display: flex;
+    font-size: large;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 170, 142);
+    height: 10vh;
+    width: 100%;
+}
+
+body{
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh;
+    font-family: fantasy;
+}
+
+.navbar a{
+    transition: 0.3s;
+    color: rgb(141, 56, 48);
+}
+
+.navbar a:hover{
+    background-color: rgb(255, 230, 216);
+    padding: 1vh;
+    outline-style: solid;
+
+}
+
+.main {
+    display: flex;
+    background-color: rgb(255, 180, 155);
+    align-items: center;
+    color: rgb(69, 34, 31);
+    flex-direction: column;
+    padding: 6vh;
+    text-align: center;
+}
+
+.skjema {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.vare {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
